@@ -588,10 +588,6 @@ video {
   width: 100vw;
 }
 
-.w-\[50\%\]{
-  width: 50%;
-}
-
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -667,8 +663,9 @@ video {
   text-align: center;
 }
 
-.text-\[13px\]{
+.text-\[13px\]\/6{
   font-size: 13px;
+  line-height: 1.5rem;
 }
 
 .text-\[20px\]{
@@ -677,31 +674,6 @@ video {
 
 .text-\[24px\]{
   font-size: 24px;
-}
-
-.text-\[13px\]\/tight{
-  font-size: 13px;
-  line-height: 1.25;
-}
-
-.text-\[13px\]\/normal{
-  font-size: 13px;
-  line-height: 1.5;
-}
-
-.text-\[13px\]\/relaxed{
-  font-size: 13px;
-  line-height: 1.625;
-}
-
-.text-\[13px\]\/6{
-  font-size: 13px;
-  line-height: 1.5rem;
-}
-
-.text-\[13px\]\/5{
-  font-size: 13px;
-  line-height: 1.25rem;
 }
 
 .font-extralight{
@@ -795,18 +767,6 @@ video {
     grid-row-end: 2;
   }
 
-  .xl\:mt-\[20px\]{
-    margin-top: 20px;
-  }
-
-  .xl\:mt-6{
-    margin-top: 1.5rem;
-  }
-
-  .xl\:mt-8{
-    margin-top: 2rem;
-  }
-
   .xl\:mt-9{
     margin-top: 2.25rem;
   }
@@ -827,20 +787,12 @@ video {
     grid-template-rows: repeat(1, minmax(0, 1fr));
   }
 
-  .xl\:gap-\[6px\]{
-    gap: 6px;
-  }
-
   .xl\:gap-\[7px\]{
     gap: 7px;
   }
 
   .xl\:self-center{
     align-self: center;
-  }
-
-  .xl\:whitespace-pre-line{
-    white-space: pre-line;
   }
 
   .xl\:px-0{
@@ -853,43 +805,7 @@ video {
     padding-bottom: 0px;
   }
 
-  .xl\:text-\[30px\]{
-    font-size: 30px;
-  }
-
-  .xl\:text-\[38px\]{
-    font-size: 38px;
-  }
-
-  .xl\:text-\[34px\]{
-    font-size: 34px;
-  }
-
   .xl\:text-\[36px\]{
     font-size: 36px;
-  }
-
-  .xl\:text-\[14px\]{
-    font-size: 14px;
-  }
-
-  .xl\:text-\[14px\]\/tight{
-    font-size: 14px;
-    line-height: 1.25;
-  }
-
-  .xl\:text-\[14px\]\/normal{
-    font-size: 14px;
-    line-height: 1.5;
-  }
-
-  .xl\:text-\[14px\]\/relaxed{
-    font-size: 14px;
-    line-height: 1.625;
-  }
-
-  .xl\:text-\[14px\]\/loose{
-    font-size: 14px;
-    line-height: 2;
   }
 }
